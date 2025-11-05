@@ -10,15 +10,6 @@ A data-driven analysis and predictive modeling system that segments credit card 
 **Fields:** Demographics, income, card type, credit limit, transaction amount & frequency, inactivity, churn flag, etc.
 
 ---
-🎯 Objectives
-
-Perform RFM-based segmentation
-
-Analyze customer profitability by segment
-
-Build predictive model for churn (Random Forest)
-
-Derive actionable business insights for retention
 
 ## ⚙️ Methodology Overview
 | Stage | Description |
