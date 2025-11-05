@@ -101,7 +101,7 @@ Clusters were named as follows:
 ---
 
 ## 🧰 Tools Used
-Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn, Streamlit (optional)
+Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn
 
 ---
 
