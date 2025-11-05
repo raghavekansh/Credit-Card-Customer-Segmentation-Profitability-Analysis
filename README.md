@@ -2,13 +2,20 @@
 
 🧩 Project Overview
 
-A data-driven analysis and predictive modeling system that segments credit card customers, analyzes profitability, and predicts churn using machine learning.
+This project focuses on **analyzing credit card customer data** to uncover patterns in customer behavior, segment customers for targeted marketing, and predict churn risk using **machine learning**.  
+It combines **RFM segmentation, profitability analysis, clustering, and predictive modeling** to deliver actionable business insights.
 
 ## 🗂️ Dataset
 **Source:** Kaggle – Credit Card Customers Dataset  
 **Records:** 10,127 customers  
 **Fields:** Demographics, income, card type, credit limit, transaction amount & frequency, inactivity, churn flag, etc.
-
+## Dataset Information
+- **Rows:** 10,127  
+- **Columns:** 21  
+- **Key Features:**
+  - `Customer_Age`, `Gender`, `Income_Category`, `Card_Category`
+  - `Total_Trans_Amt`, `Total_Trans_Ct`, `Credit_Limit`, `Avg_Utilization_Ratio`
+  - `Attrition_Flag` (Target Variable → “Existing” or “Attrited”)
 ---
 
 ## ⚙️ Methodology Overview
@@ -48,6 +55,20 @@ A data-driven analysis and predictive modeling system that segments credit card 
 | **Cannot Lose Them** | 1.3% | High churn (72%), urgent focus |
 
 ---
+## 🤖 Predictive Modeling – Churn Propensity
+
+| Metric | Score |
+|---------|--------|
+| **Accuracy** | 95% |
+| **ROC-AUC** | 0.93 |
+| **Precision (Churn)** | 0.88 |
+| **Recall (Churn)** | 0.84 |
+
+**Top Predictors of Churn:**
+1. Lower Engagement Score  
+2. Fewer Transactions  
+3. High Months Inactive  
+4. Low Credit Utilization
 
 ## 💰 Profitability Analysis
 | Segment | Avg. Transaction Amt | Total Revenue ($) | Churn % |
